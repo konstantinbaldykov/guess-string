@@ -1,0 +1,5 @@
+for guesses > 0 {
+  fmt.Printf("Enter your guess (remaining attempts: %d): ", guesses)
+  var guess string
+  fmt.Scanln(&guess)
+  guess = strings.TrimSpace(guess)
